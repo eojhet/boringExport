@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1ce05ad-c7da-4f50-9ab7-89e6722b56b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eojhet/boring/BoringObjectDecoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eojhet/boring/JsonDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eojhet/boring/JsonDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eojhet/boring/BoringPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eojhet/boring/BoringPDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eojhet/boring/JsonDecoder.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +57,22 @@
       <recent name="com.eojhet.boring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JsonDecoder">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eojhet.boring.App" />
+  <component name="RunManager" selected="Application.BoringPDF">
+    <configuration name="BoringObjectDecoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eojhet.boring.BoringObjectDecoder" />
+      <module name="boringExport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eojhet.boring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoringPDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eojhet.boring.BoringPDF" />
       <module name="boringExport" />
       <extension name="coverage">
         <pattern>
@@ -95,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonDecoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eojhet.boring.JsonDecoder" />
-      <module name="boringExport" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eojhet.boring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in boringExport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boringExport" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JsonDecoder" />
+        <item itemvalue="Application.BoringPDF" />
+        <item itemvalue="Application.BoringObjectDecoder" />
         <item itemvalue="Application.CsvPDFTanks" />
         <item itemvalue="Application.CsvPDF" />
         <item itemvalue="JUnit.All in boringExport" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
