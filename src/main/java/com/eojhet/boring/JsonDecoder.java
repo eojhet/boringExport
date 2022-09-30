@@ -28,7 +28,7 @@ public class JsonDecoder {
 
     public ArrayList<Float> getDepths() {
         ArrayList<Float> depthsArray = new ArrayList<>();
-        JSONArray objectArray = (JSONArray) boringData.get("depth");
+        JSONArray objectArray = (JSONArray) boringData.get("depths");
 
         for (Object depth : objectArray) {
             depthsArray.add(Float.parseFloat(depth.toString()));
@@ -39,7 +39,7 @@ public class JsonDecoder {
 
     public ArrayList<String> getTypes() {
         ArrayList<String> typesArray = new ArrayList<>();
-        JSONArray objectArray = (JSONArray) boringData.get("type");
+        JSONArray objectArray = (JSONArray) boringData.get("types");
 
         for (Object type : objectArray) {
             typesArray.add(type.toString());
@@ -49,7 +49,7 @@ public class JsonDecoder {
     }
 
     public static void main(String[] args) throws ParseException {
-        String jsonObject = "{\"depth\": [\"1\",\"2.5\",\"4.5\",\"7.5\",\"11\"],\"type\": [\"clay\",\"sandyClay\",\"gravellyClay\",\"sand\",\"silt\"]}";
+        String jsonObject = "{\"label\":\"MW-1\",\"logBy\":\"Joe Gonzalez\",\"company\":\"Bay Environmental inc.\",\"location\":\"2048 Nags Head Rd\",\"equip\":\"Hand Auger\",\"date\":\"2022-03-17\",\"time\":\"10:30\",\"depths\":[\"1\",\"3\",\"8\",\"12\",\"16\"],\"types\":[\"topSoil\",\"sandyClay\",\"clay\",\"sand\",\"siltySand\"],\"descriptions\":[\"Top soil\",\"Sandy clay\",\"Dark red clay\",\"Beige sand\",\"Light beige silty sand\"]}";
 
         JsonDecoder decode = new JsonDecoder(jsonObject);
         ArrayList<Float> depths = decode.getDepths();
